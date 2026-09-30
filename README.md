@@ -37,7 +37,7 @@ pip install flash-attn==2.6.3 --no-build-isolation
 
 ## Data
 
-Test data is hosted on Hugging Face: ![Roxanne-WANG/MMedAgent-V2](https://huggingface.co/datasets/Roxanne-WANG/MMedAgent-V2).
+Test data is hosted on Hugging Face: [Roxanne-WANG/MMedAgent-V2](https://huggingface.co/datasets/Roxanne-WANG/MMedAgent-V2).
 
 Images is stored on Google Drive: [instruction_dataset_images](https://drive.google.com/drive/folders/1-AfZ5Ox1nDgs1hNvNyGBWSBX8cwC0xtu?usp=sharing)
 
@@ -98,7 +98,7 @@ If you train on a different number of GPUs, adjust `grad_accum_steps` in the scr
 
 ## Model weights
 
-The fine-tuning weight is hosted on Hugging Face: ![ZihaoLin/mmedagent-nov24](https://huggingface.co/ZihaoLin/mmedagent-nov24).
+The fine-tuning weight is hosted on Hugging Face: [ZihaoLin/mmedagent-nov24](https://huggingface.co/ZihaoLin/mmedagent-nov24).
 
 ```bash
 huggingface-cli download ZihaoLin/mmedagent-nov24 --local-dir ./checkpoints/mmedagent-plus-7b
